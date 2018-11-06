@@ -1,0 +1,4 @@
+INSERT INTO movie VALUES (null, 'Forestt Gump', 'https://rndr.juniqe.com/media/catalog/product/cache/x800/467/14/467-14-202P-Black.jpg', 'lalalala');
+INSERT INTO movie (name, poster, comment) VALUES ('Nikita', 'https://rndr.juniqe.com/media/catalog/product/cache/x800/467/14/467-14-202P-Black.jpg', 'lalalou');
+INSERT INTO movie (name, poster, comment) VALUES ('BOBO', 'https://rndr.juniqe.com/media/catalog/product/cache/x800/467/14/467-14-202P-Black.jpg', 'lala'),('BABA', 'https://rndr.juniqe.com/media/catalog/product/cache/x800/467/14/467-14-202P-Black.jpg', 'lolo'),('BIBI', 'https://rndr.juniqe.com/media/catalog/product/cache/x800/467/14/467-14-202P-Black.jpg', 'lili');
+INSERT into movie (name) VALUES ('HIHI');
