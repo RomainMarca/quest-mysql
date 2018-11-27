@@ -1,0 +1,4 @@
+SELECT * FROM movie;
+SELECT name FROM movie;
+SELECT id, poster FROM movie;
+SELECT poster, comment as commentaire FROM movie;

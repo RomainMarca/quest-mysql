@@ -1,0 +1,3 @@
+UPDATE movie SET name='Men in Black' WHERE id='5';
+UPDATE movie SET name='Deadpool', poster='https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Deadpool_%282016_poster%29.png/220px-Deadpool_%282016_poster%29.png' WHERE id='8' ;
+UPDATE movie SET comment='' WHERE id='10';
