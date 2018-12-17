@@ -1,0 +1,10 @@
+-- #1 
+SELECT id_camp, localite FROM `campus` 
+-- #2
+SELECT nom, nom_camp FROM equipe join campus ON equipe.id_camp = campus.id_camp 
+-- #3
+SELECT * FROM equipe where fonction = "Assistant" and (id_camp = 130 or id_camp = 140)
+-- #4
+SELECT * FROM equipe where fonction != "Assistant" and date_embauche like "2017%" 
+-- #5
+SELECT nom FROM equipe WHERE nom like '%r%' and nom like '%a%' 
